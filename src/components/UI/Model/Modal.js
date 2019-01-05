@@ -9,6 +9,7 @@ class Modal extends Component{
     }
 
     render(){
+        
     return (
             <div>
                 <Backdrop show={this.props.show} clicked={this.props.modalClosed}/>
