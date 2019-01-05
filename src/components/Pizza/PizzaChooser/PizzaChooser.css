@@ -1,0 +1,29 @@
+.PizzaChooser {
+    width: 100%;
+    margin: auto;
+    height: 50%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .PizzaChooser {
+        width: 350px;
+        height: auto;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .PizzaChooser {
+        width: 450px;
+        height: auto;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .PizzaChooser {
+        width: 700px;
+        height: auto;
+    }
+}
